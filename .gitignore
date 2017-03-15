@@ -7,3 +7,6 @@
 /pkg/
 /spec/reports/
 /tmp/
+/.env
+/.~lock.export.csv\#
+/export.csv
