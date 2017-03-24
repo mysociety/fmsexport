@@ -21,7 +21,7 @@ bundle install
 Run the task (setting the council ID as an ENV variable)
 
 ```
-bundle exec export COUNCIL={council_id}
+bundle exec rake export COUNCIL={council_id}
 ```
 
 You can also set optional variables for category (`CATEGORY`), ward (`AREA`) and
@@ -31,5 +31,5 @@ The script outputs the CSV to the command line (for flexibility's sake), but you
 can easily output this to a file with:
 
 ```
-bundle exec export COUNCIL={council_id} > export.csv
+bundle exec rake export COUNCIL={council_id} > export.csv
 ```
